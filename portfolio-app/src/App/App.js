@@ -1,16 +1,13 @@
+import { useState } from 'react'
 import logo from '../logo.svg';
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>This will soon be my portfolio page. It will look nice, <strong>VERY</strong> nice</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          YE OLDE REACT
-        </p>
-      </header>
+      <p id="sup">Sup homie</p>
     </div>
   );
 }
