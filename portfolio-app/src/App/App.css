@@ -1,9 +1,17 @@
-.Fade {
+#main {
+  margin-top: 5%;
+}
+
+.text {
+  text-align: center;
+}
+
+.fade {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
-.Fade.fade-out {
+.fade.fade-out {
   opacity: 1;
 }
 

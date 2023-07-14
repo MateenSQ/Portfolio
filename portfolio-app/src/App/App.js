@@ -32,10 +32,10 @@ function Fade() {
   }, []);
 
   return (
-    <div id='Home'>
-      <h1 className={`Fade ${showTitle ? 'fade-in' : 'fade-out'}`} id="sup">Welcome</h1>
-      <h2 className={`Fade ${showIntro ? 'fade-in' : 'fade-out'}`}>I'm Mateen, a junior software developer</h2>
-      <p className={`Fade ${showPage ? 'fade-in' : 'fade-out'}`}>This is my page</p>
+    <div id="main">
+      <h1 className={`text fade ${showTitle ? 'fade-in' : 'fade-out'}`} id="sup">Welcome</h1>
+      <h2 className={`text fade ${showIntro ? 'fade-in' : 'fade-out'}`}>I'm Mateen, a junior software developer</h2>
+      <p className={`text fade ${showPage ? 'fade-in' : 'fade-out'}`}>This is my page</p>
     </div>
   );
 }
