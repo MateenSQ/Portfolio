@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Main from '../Main/Main.js'
 
-function Fade() {
+function App() {
 
+    // || FADE-IN STATES
   const [showTitle, setShowTitle] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
   const [showPage, setShowPage] = useState(true)
 
+  // || FADE-INS
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowTitle(false);
@@ -33,11 +36,19 @@ function Fade() {
 
   return (
     <div id="main">
-      <h1 className={`text fade ${showTitle ? 'fade-in' : 'fade-out'}`} id="sup">Welcome</h1>
-      <h2 className={`text fade ${showIntro ? 'fade-in' : 'fade-out'}`}>I'm Mateen, a junior software developer</h2>
-      <p className={`text fade ${showPage ? 'fade-in' : 'fade-out'}`}>This is my page</p>
+
+      <div>
+        <h1 className={`text fade ${showTitle ? 'fade-in' : 'fade-out'}`} id="sup">Welcome</h1>
+      </div>
+
+      <div>
+        <h2 className={`text fade ${showIntro ? 'fade-in' : 'fade-out'}`}>I'm Mateen, a junior software developer</h2>
+      </div>
+
+        <Main showPage={showPage}/>
+
     </div>
   );
 }
 
-export default Fade;
+export default App;

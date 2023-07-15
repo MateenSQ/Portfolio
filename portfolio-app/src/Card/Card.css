@@ -1,0 +1,7 @@
+.card {
+    display: flexbox;
+    background-color: red;
+    color: black;
+    width: 20%;
+    height: 10%;
+}
