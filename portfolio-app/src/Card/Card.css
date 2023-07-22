@@ -1,5 +1,5 @@
 .card {
-    display: flex;
+
     justify-content: center;
     margin-top: 2%;
     border-radius: 15px;
@@ -13,18 +13,19 @@
 }
 
 .cardHeader {
+    font-size: 2em;
     text-align: center;
 }
 
 .cardImage {
+    display: inline;
     max-width: 100%;
     height: auto;
-    margin-left: 70%
 }
 
 .cardText {
-    order: 1;
-    display: inline;
+    display: inline-block;
+    width: 300px;
 }
 
 /*
