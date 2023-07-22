@@ -1,13 +1,31 @@
 .card {
-    display: inline;
-    border-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
     border-radius: 15px;
-    background: grey;
-    color: black;
-    width: 400px;
-    height: 10%;
+    width: 100%;
+    height: auto;
 }
 
+.flexItem {
+    width: 100%;
+    order: 2;
+}
+
+.cardHeader {
+    text-align: center;
+}
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+    margin-left: 70%
+}
+
+.cardText {
+    order: 1;
+    display: inline;
+}
 
 /*
 

@@ -6,8 +6,7 @@ function Main({showPage}) {
         <main className={`text fade ${showPage ? 'fade-in' : 'fade-out'}`}>
                 <h3 className="h3">Here you will find projects I have been involved in!</h3>
 
-                
-                <Card />
+                 <Card />
         </main>
     )
 }
