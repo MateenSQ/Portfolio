@@ -1,7 +1,19 @@
 .card {
-    display: flexbox;
-    background-color: red;
+    display: inline;
+    border-top: 10%;
+    border-radius: 15px;
+    background: grey;
     color: black;
-    width: 20%;
+    width: 400px;
     height: 10%;
 }
+
+
+/*
+
+// || Interesting stuff
+
+
+
+background: linear-gradient(to bottom, red 0%, red 10%, blue 10%, blue 15%);
+*/

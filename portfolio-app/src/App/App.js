@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowIntro(false);
-    }, 2500); // Set the timeout duration in milliseconds (e.g., 2000ms = 2 seconds)
+    }, 2000); // Set the timeout duration in milliseconds (e.g., 2000ms = 2 seconds)
 
     return () => clearTimeout(timeout);
   }, []);
@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowPage(false);
-    }, 4000); // Set the timeout duration in milliseconds (e.g., 2000ms = 2 seconds)
+    }, 3000); // Set the timeout duration in milliseconds (e.g., 2000ms = 2 seconds)
 
     return () => clearTimeout(timeout);
   }, []);
