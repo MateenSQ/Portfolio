@@ -1,16 +1,12 @@
 .card {
-    background-color: #98e1bc40;
+    margin: 0 15%;
     position: relative;
+    background-color: #98e1bc40;
     justify-content: center;
     margin-top: 5%;
     border-radius: 40px;
-    width: 100%;
+    width: 70%;
     height: 400px;
-}
-
-.flexItem {
-    width: 100%;
-    order: 2;
 }
 
 .cardHeader {
@@ -21,15 +17,16 @@
 }
 
 .text-ImgBox {
-    margin-top: 6%;
+    position: relative;
+    margin-top: 50px;
 }
 
 .cardText {
+    display: inline-block;
     text-align: left;
     position: relative;
     bottom: 100px;
-    margin: 0;
-    display: inline-block;
+    margin-right: 5%;
     width: 400px;
 }
 
@@ -38,7 +35,7 @@
     display: inline;
     width: auto;
     height: auto;
-    left: 5%;
+
     border-radius: 5%;
     transition: transform 0.5s ease;
 }
