@@ -1,10 +1,11 @@
 .card {
-
+    background-color: #98e1bc40;
+    position: relative;
     justify-content: center;
-    margin-top: 2%;
-    border-radius: 15px;
+    margin-top: 5%;
+    border-radius: 40px;
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 
 .flexItem {
@@ -13,21 +14,38 @@
 }
 
 .cardHeader {
+    position: relative;
+    top: 5.5%;
     font-size: 2em;
     text-align: center;
 }
 
-.cardImage {
-    display: inline;
-    max-width: 100%;
-    height: auto;
+.text-ImgBox {
+    margin-top: 6%;
 }
 
 .cardText {
+    text-align: left;
+    position: relative;
+    bottom: 100px;
+    margin: 0;
     display: inline-block;
-    width: 300px;
+    width: 400px;
 }
 
+.cardImage {
+    position: relative;
+    display: inline;
+    width: auto;
+    height: auto;
+    left: 5%;
+    border-radius: 5%;
+    transition: transform 0.5s ease;
+}
+
+.cardImage:hover {
+    transform: scale(1.05)
+}
 /*
 
 // || Interesting stuff

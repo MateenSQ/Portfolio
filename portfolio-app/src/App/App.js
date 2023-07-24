@@ -7,9 +7,9 @@ function App() {
     // || FADE-IN STATES
   const [showTitle, setShowTitle] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
-  const [showPage, setShowPage] = useState(true)
+  const [showPage, setShowPage] = useState(false)
 
-  // || FADE-INS
+//  || FADE-INS
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowTitle(false);
