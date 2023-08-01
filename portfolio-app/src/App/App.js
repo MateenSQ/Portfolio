@@ -7,7 +7,7 @@ function App() {
     // || FADE-IN STATES
   const [showTitle, setShowTitle] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
-  const [showPage, setShowPage] = useState(false)
+  const [showPage, setShowPage] = useState(true)
 
 //  || FADE-INS
   useEffect(() => {
