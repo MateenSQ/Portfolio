@@ -5,9 +5,9 @@ import Main from '../Main/Main.js'
 function App() {
 
     // || FADE-IN STATES
-  const [showTitle, setShowTitle] = useState(false);
-  const [showIntro, setShowIntro] = useState(false);
-  const [showPage, setShowPage] = useState(false)
+  const [showTitle, setShowTitle] = useState(true);
+  const [showIntro, setShowIntro] = useState(true);
+  const [showPage, setShowPage] = useState(true)
 
 //  || FADE-INS
   useEffect(() => {
