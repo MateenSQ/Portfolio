@@ -1,9 +1,28 @@
 /* || ELEMENT SELECTORS */
 
+body {
+  /*background-color: #E3F2FC;*/
+  background: linear-gradient(
+    to right,
+    #CCFFFC 0%, 
+    #CCFFFC 5%, 
+    #E3F2FC 40%, 
+    #E3F2FC 65%, 
+    #CCFFFC 100%
+    );
+}
 
+h1 {
+  font-size: 4em;
+  font-family: 'Mulish', sans-serif;
+}
 
+h2 {
+  font-weight: 400;
+}
 
 /* || CLASS SELECTORS */
+
 .h3 {
   font-weight: 400;
 }

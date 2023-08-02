@@ -1,7 +1,11 @@
+p {
+    margin-top: 0;
+}
+
 .card {
     margin: 0 15%;
     position: relative;
-    background-color: #98e1bc40;
+    background-color: #c5d8e8a2;
     justify-content: center;
     margin-top: 5%;
     border-radius: 40px;
@@ -25,7 +29,7 @@
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 100px;
+    vertical-align: top; 
     margin-right: 5%;
     width: 400px;
 }
@@ -33,6 +37,7 @@
 .cardImages {
     position: relative;
     display: inline;
+    vertical-align: top; 
     width: 300px;
     height: 280px;
     border-radius: 5%;

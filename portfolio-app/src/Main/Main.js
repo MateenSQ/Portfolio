@@ -9,7 +9,7 @@ function Main({showPage}) {
 
     return (
         <main className={`text fade ${showPage ? 'fade-in' : 'fade-out'}`}>
-                <h3 className="h3">Here you will find projects I have been involved in!</h3>
+                <h3 className="h3">Here you will find projects I have worked on - click on the image to go to the website! This is the first version of my portfolio site, expect changes to come!</h3>
 
                  <Card 
                     aHref="https://garden-genie.netlify.app/"

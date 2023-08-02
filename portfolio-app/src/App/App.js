@@ -5,9 +5,9 @@ import Main from '../Main/Main.js'
 function App() {
 
     // || FADE-IN STATES
-  const [showTitle, setShowTitle] = useState(true);
-  const [showIntro, setShowIntro] = useState(true);
-  const [showPage, setShowPage] = useState(true)
+  const [showTitle, setShowTitle] = useState(false);
+  const [showIntro, setShowIntro] = useState(false);
+  const [showPage, setShowPage] = useState(false)
 
 //  || FADE-INS
   useEffect(() => {
@@ -38,7 +38,7 @@ function App() {
     <div id="main">
 
       <div>
-        <h1 className={`text fade ${showTitle ? 'fade-in' : 'fade-out'}`} id="sup">Welcome</h1>
+        <h1 className={`text fade ${showTitle ? 'fade-in' : 'fade-out'}`}>Welcome</h1>
       </div>
 
       <div>
