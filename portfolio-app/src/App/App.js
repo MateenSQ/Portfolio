@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import Main from '../Main/Main.js'
+import Projects from '../Projects/Projects.js'
 
 function App() {
 
@@ -45,7 +45,7 @@ function App() {
         <h2 className={`text fade ${showIntro ? 'fade-in' : 'fade-out'}`}>I'm Mateen, a junior software developer</h2>
       </div>
 
-        <Main showPage={showPage}/>
+        <Projects showPage={showPage}/>
 
     </div>
   );
