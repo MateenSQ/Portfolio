@@ -6,6 +6,7 @@
 
 html {
   font-size: 14px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 768px) {
@@ -22,15 +23,8 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  /*position: relative;*/
-  min-height: 100%;
-}
 
-body {
-  margin-bottom: 60px;
-  background-color: #2D2D2D;
-}
+
 
 
 /*

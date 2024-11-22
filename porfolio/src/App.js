@@ -35,7 +35,15 @@ function App() {
               <p>
                   From there, I learned about Software Engineering, a field with a unique blend of logic and creativity with a drive
                   for continuous improvement. A growth mindset has been part of my life since I was roughly 12 - 14 years old,
-                  while I've always expressed creativity and logic through science, rugby, martial arts and games.
+                  while I've always expressed creativity and logic through science, rugby, martial arts and games. It's an Industry
+                  that feels like it was meant for me.
+              </p>
+
+              <p>
+                    My favourite part thus far of software development is gradually learning things that previously seemed so
+                    out of reach or complicated. My most notable examples include Object Orientated Programming, design patterns,
+                    authentication and authorization. I've never really felt quite so achieved in my life when I learned, understood
+                    and applied these principles into my work.
               </p>
 
           </div>
@@ -57,9 +65,9 @@ function App() {
                       </p>
 
                       (has a cold start, may take a minute or more to load)
-                      <p>Link to app: <a target="_blank" href="https://strikebuildermvc.onrender.com/">here</a>.</p>
+                      <p>Link to app: <a target="_blank" rel="noreferrer" href="https://strikebuildermvc.onrender.com/">here</a>.</p>
                       
-                      <p>Link to GitHub: <a target="_blank" href="https://github.com/MateenSQ/strikeBuilder">here</a>.</p>
+                      <p>Link to GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/MateenSQ/strikeBuilder">here</a>.</p>
                   </div>
 
                   <div class="box gardenGenie">
@@ -74,8 +82,8 @@ function App() {
                           closing the tab, and reopening the web page tends (emphasis on <em>tends</em> to work). May require a few tries (never did this at the time
                           of making it - backend also has a cold start).
                       </p>
-                      <p>Link to app: <a target="_blank" href="https://garden-genie.netlify.app/">here</a>.</p>
-                      <p>Link to GitHub: <a target="_blank" href="https://github.com/MateenSQ/M.A.S.H.E.D_Garden_Genie">here</a>.</p>
+                      <p>Link to app: <a target="_blank" rel="noreferrer" href="https://garden-genie.netlify.app/">here</a>.</p>
+                      <p>Link to GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/MateenSQ/M.A.S.H.E.D_Garden_Genie">here</a>.</p>
                   </div>
 
                   <div class="box businessReporting">
@@ -101,7 +109,8 @@ function App() {
                   <h2 class="hMargin">Digital Art & Creative Media</h2>
                   <ul>
                       <li>I am learning and practicing digital art! </li>
-                      <li>I would love to be able to create artworks and eventually try animation - 2D and 3D - but good art fundamentals come first!</li>
+                      <li>I want to be able to create artworks and eventually try animation - 2D and 3D - but good art fundamentals come first!</li>
+                      <li>I love all components of games and entertainment, particularly music, and like to try my hand at learning music, starting with an instrument.</li>
                   </ul>
 
                   <h4>Story Time</h4>
@@ -130,11 +139,13 @@ function App() {
                       <em>SO</em>, I started learning to draw from simple online YouTube videos, pencil and paper in hand. After drawing and going through creators, I stumbled across
                       <a href="https://www.youtube.com/@YTartschool">Marc Brunet</a>. He has a series called YouTube Art School where he offers lots of videos about fundamental art
                       skills, but also videos about about skill roadmaps (what order to learn things) creative process and mindset (including the growth mindset). After practicing 
-                      under his compelling content, I decided to all-in on art.
+                      under his encouraging and informative content, I decided to all-in on art.
                   </p>
                   <p>
                       Marc has a paid digital art course, and being so compelled with drawing and his content, I decided to make the hefty purchases
-                      of software, hardware and the course to continue my art journey. To this day, I have not regretted it for a second.
+                      of software, hardware and the course to continue my art journey. To this day, I have not regretted it for a second. The thought
+                      of taking steps towards of creating compelling artworks, developing a style, learning 3D software, learning animation techniques
+                      is nothing short of brilliant.
                   </p>
 
                   {/* @* I am learning and practicing digital art! I would love to be able to create artworks and eventually try animation but good art fundamentals come first. *@ */}
