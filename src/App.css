@@ -51,6 +51,7 @@ h1 {
 
 .projects {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -65,8 +66,6 @@ h1 {
   border-radius: 10px;
   flex: 1;
   /* Ensures boxes grow/shrink evenly if needed */
-  max-width: 45%;
-  /* Limit the width for the first two boxes */
   text-align: center;
   /* Centers the content of each box */
   margin: 10px;
