@@ -46,7 +46,7 @@ function App() {
 
                         <div class="projects center">
                             <div class="box businessReporting">
-                                <h3>Seacht Business Reporting</h3>
+                                <h3>Business Reporting</h3>
                                 <p>
                                     This is an inhouse piece of software I developed to for the members of Seacht and the Manging Directors of daughter companies 
                                     (including Saith - my workplace). It allows users to create, read, update and delete reports. It has authentication to ensure 
