@@ -70,8 +70,7 @@ function App() {
                                     </p>
                                     <p>Link to app: <a target="_blank" rel="noreferrer" href="https://garden-genie.netlify.app/">here</a>.</p>
                                     <p>Link to GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/MateenSQ/M.A.S.H.E.D_Garden_Genie">here</a>.</p>
-                                </div>
-                                <p>I'm quite interesting in web design and architecture, so whilst educating myself on these topics I hope to try and create an app that allows me to play with these concepts interactively.</p>                  
+                                </div>              
                         </div>
                     </div>
 
