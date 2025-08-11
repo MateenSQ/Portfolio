@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Collapsible from './components/Collapsible';
 import './App.css';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
 
                 <div class="darkTheme">
                     <div class="content container">
+
+                        <Collapsible label="Cuck Magic" />
+
                     <h1>Introduction</h1>
                         <p>
                             Hello, I'm Mateen. I was studying chemical engineering at a Loughborough University, but was dissatisfied with
@@ -87,7 +91,7 @@ function App() {
 
                             <h4>Story Time</h4>
                             <p>
-                                Around October 2023 when I started working, I came across <a href="https://www.youtube.com/@PirateSoftware">Pirate Software</a>, who encouraged his viewers
+                                Around October 2023 when I started working, I came across <a href="https://www.youtube.com/@PirateSoftware">Pirate Software</a> (before all the mess), who encouraged his viewers
                                 to make games. I wanted another hobby I can devote time to outside of work, fitness and games, this seemed perfect.
                             </p>
                             <p>
