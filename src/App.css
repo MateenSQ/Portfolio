@@ -128,3 +128,23 @@ h1 {
 .bumper {
   height: 600px;
 }
+
+/*
+    ----------------------
+    || Collapse Animation
+    ----------------------
+*/
+
+.toggleButton {
+  margin: 0 0 5px 0;
+  border: 1px white;
+  border-style: solid;
+  padding: 0 5px;
+  background-color: #2D2D2D;
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+  .toggleButton:hover {
+    color: #2D2D2D;
+    background-color: white;
+  }

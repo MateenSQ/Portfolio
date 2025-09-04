@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Collapsible from './components/Collapsible';
 import './App.css';
 
@@ -16,8 +15,6 @@ function App() {
 
                 <div class="darkTheme">
                     <div class="content container">
-
-                        <Collapsible label="Cuck Magic" />
 
                     <h1>Introduction</h1>
                         <p>
@@ -52,7 +49,7 @@ function App() {
                             <div class="box businessReporting">
                                 <h3>Business Reporting</h3>
                                 <p>
-                                    This is an inhouse piece of software I developed to for the members of Seacht and the Manging Directors of daughter companies 
+                                    This was an inhouse piece of software I developed to for the members of Seacht and the Manging Directors of daughter companies 
                                     (including Saith - my workplace). It allows users to create, read, update and delete reports. It has authentication to ensure 
                                     only logged in users can access the app, and exercises authorization for resource access management.
                                     I wireframed, prototyped, designed, programmed and restructured (when needed) the entire thing myself.
@@ -89,85 +86,88 @@ function App() {
                                 <li>I love all components of games and entertainment, particularly music, and like to try my hand at learning music, starting with an instrument.</li>
                             </ul>
 
-                            <h4>Story Time</h4>
-                            <p>
-                                Around October 2023 when I started working, I came across <a href="https://www.youtube.com/@PirateSoftware">Pirate Software</a> (before all the mess), who encouraged his viewers
-                                to make games. I wanted another hobby I can devote time to outside of work, fitness and games, this seemed perfect.
-                            </p>
-                            <p>
-                                At this time, he was hosting a game jam. I considered participating, but I had just started at my first software job and was still settling in and dealing with renting issues,
-                                I didn't want to stress myself more by making it something I <strong>had</strong> to do.
-                                
-                                After a month of settling in and watching more of his context, I downloaded unreal engine and ran a First-Person-Shooter template project - and had
-                                no idea what I was doing. I did some introspective thinking, and I eventually realised that as well as games, I have always loved
-                                animation and animated shows. <strong>It became apparent that my love of games and animation were not separate - I know I would love to make something
-                                that could create an enjoyable experience for another person. I have spent most of my life tempering my logic and problem-solving, but I have
-                                equally loved creativity, and it was time I started leaning into it.</strong>
-                            </p>
-                            <p>
-                                Back to considering game development: even though I'd have an advantage making games as I was learning C# (I assumed it somewhat translated to C++),
-                                there was no reason I couldn't start learning art. I often think about .
-                            </p>
-                            <p>
-                                So I booted up Blender, again, having no idea what I was doing. But this time, I noticed that what I wanted to do required art skills, something I did not have.
-                            </p>
-                            <p>
-                                <em>So</em>, I started learning to draw from simple online YouTube videos, pencil and paper in hand. After drawing and going through creators, I stumbled across <a href="https://www.youtube.com/@YTartschool"> Marc Brunet</a>. He has a series called 
-                                YouTube Art School where he offers lots of videos about fundamental art
-                                skills, but also videos about about skill roadmaps (what order to learn things) creative process and mindset (including the growth mindset). After practicing 
-                                under his encouraging and informative content, I decided to all-in on art.
-                            </p>
-                            <p>
-                                Marc has a paid digital art course, and being so compelled with drawing and his content, I decided to make the hefty purchases
-                                of software, hardware and the course to continue my art journey. To this day, I have not regretted it for a second. The thought
-                                of taking steps towards of creating compelling artworks, developing a style, learning 3D software, learning animation techniques
-                                is nothing short of brilliant.
-                            </p>
+                            <Collapsible label="More about Art">
+                                <p>
+                                    {/* Around October 2023 when I started working, I came across <a href="https://www.youtube.com/@PirateSoftware">Pirate Software</a> (before all the mess), who encouraged his viewers
+                                    to make games. I wanted another hobby I can devote time to outside of work, fitness and games, this seemed perfect. */}
+                                </p>
+                                <p>
+                                    At this time, he was hosting a game jam. I considered participating, but I had just started at my first software job and was still settling in and dealing with renting issues,
+                                    I didn't want to stress myself more by making it something I <strong>had</strong> to do.
+                                    
+                                    After a month of settling in and watching more of his context, I downloaded unreal engine and ran a First-Person-Shooter template project - and had
+                                    no idea what I was doing. I did some introspective thinking, and I eventually realised that as well as games, I have always loved
+                                    animation and animated shows. <strong>It became apparent that my love of games and animation were not separate - I know I would love to make something
+                                    that could create an enjoyable experience for another person. I have spent most of my life tempering my logic and problem-solving, but I have
+                                    equally loved creativity, and it was time I started leaning into it.</strong>
+                                </p>
+                                <p>
+                                    Back to considering game development: even though I'd have an advantage making games as I was learning C# (I assumed it somewhat translated to C++),
+                                    there was no reason I couldn't start learning art. I often think about .
+                                </p>
+                                <p>
+                                    So I booted up Blender, again, having no idea what I was doing. But this time, I noticed that what I wanted to do required art skills, something I did not have.
+                                </p>
+                                <p>
+                                    <em>So</em>, I started learning to draw from simple online YouTube videos, pencil and paper in hand. After drawing and going through creators, I stumbled across <a href="https://www.youtube.com/@YTartschool"> Marc Brunet</a>. He has a series called 
+                                    YouTube Art School where he offers lots of videos about fundamental art
+                                    skills, but also videos about about skill roadmaps (what order to learn things) creative process and mindset (including the growth mindset). After practicing 
+                                    under his encouraging and informative content, I decided to all-in on art.
+                                </p>
+                                <p>
+                                    Marc has a paid digital art course, and being so compelled with drawing and his content, I decided to make the hefty purchases
+                                    of software, hardware and the course to continue my art journey. To this day, I have not regretted it for a second. The thought
+                                    of taking steps towards of creating compelling artworks, developing a style, learning 3D software, learning animation techniques
+                                    is nothing short of brilliant.
+                                </p>
+                            </Collapsible>                            
                         </div>
 
                         <div>
                             <h2 class="hMargin">Sports & Fitness</h2>
                             <ul>
-                                <li>I have played rugby from ages 12 - around 16, from school, to club, to county level.</li>
+                                <li>I have played rugby from ages 12 to around 16, from school, to club, to county level.</li>
                                 <li>After, I practiced Mixed Martial Arts with the focus on Thai Boxing for a couple years.</li>
                                 <li>Now, I keep fit with regular exercise in the gym and with running. I hope to get back into martial arts when its viable for me to do so.</li>
                             </ul>
 
-                            <h4>Story Time</h4>
-                            <p>
-                                I was picked up rugby at around 13 in middle school, practicing in PE and the school club. At one point, a coach from a fairly local club came to offer
-                                additional afterschool lessons, hoping to get a few interested and talented players to join the club he was in: Ampthill. A couple of people who also
-                                practiced rugby at school also went to this club, and I eventually joined. Being part of a friendly, funny and damn good team was lots of fun.
-                            </p>
-                            <p>
-                                Eventually, trials for the Northampton Saints Development Player Program (DPP) became available for people in school or local clubs. My clubmates
-                                and I took part in the selection trials and a handful of us got in. We started having an advanced training session per week with people from
-                                different clubs.
-                            </p>
-                            <p>
-                                A few more years later and another selection came around - this time for the Elite Player Development Program. A huge chunk of us got removed in the
-                                selection. From our local club, only myself and four or so other club members got in. At this point, the training got quite a bit more serious
-                                and after a year or more I slowly stopped having fun playing rugby. I was rather sad when I realised that I didn't want to do it anymore.
-                            </p>
-                            <p>
-                                I quite enjoyed not having to go play rugby 3 times a week at first when I quit. It felt like a literal breath of fresh air. Eventually,
-                                I thought that it would be worth picking up another sport. Volleyball crossed my mind, and I tried a bit of it in School and in clubs but
-                                I didn't really enjoy the atmosphere of the club at the time. I came across Thai Boxing online one day and found a club near me that practices
-                                Thai Boxing and Mixed Martial Arts.
-                            </p>
-                            <p>
-                                It was good fun, and more physically intensive than anything I had ever done! There are so many skills to learn and a lot of room for creativity.
-                                I practiced for a roughly 2 years on and off due to not really having too much money at the time. I didn't have the will power to study, partake
-                                in clubs and work simultaneously.
-                            </p>
-                            <p>
-                                I developed a pretty bad lower back problem at around 18, where I could hardly bend down, which was a shame as I was looking forward to MMA at
-                                university.
-                            </p>
-                            <p>
-                                As of now, I mainly keep fit in the gym. I try to employ functional training so that my muscles and fitness are primed for whenever I get back into
-                                a sport.
-                            </p>
+                            
+                            <Collapsible label="More about Sport">
+                                <p>
+                                    I was picked up rugby at around 13 in middle school, practicing in PE and the school club. At one point, a coach from a fairly local club came to offer
+                                    additional afterschool lessons, hoping to get a few interested and talented players to join the club he was in: Ampthill. A couple of people who also
+                                    practiced rugby at school also went to this club, and I eventually joined. Being part of a friendly, funny and damn good team was lots of fun.
+                                </p>
+                                <p>
+                                    Eventually, trials for the Northampton Saints Development Player Program (DPP) became available for people in school or local clubs. My clubmates
+                                    and I took part in the selection trials and a handful of us got in. We started having an advanced training session per week with people from
+                                    different clubs.
+                                </p>
+                                <p>
+                                    A few more years later and another selection came around - this time for the Elite Player Development Program. A huge chunk of us got removed in the
+                                    selection. From our local club, only myself and four or so other club members got in. At this point, the training got quite a bit more serious
+                                    and after a year or more I slowly stopped having fun playing rugby. I was rather sad when I realised that I didn't want to do it anymore.
+                                </p>
+                                <p>
+                                    I quite enjoyed not having to go play rugby 3 times a week at first when I quit. It felt like a literal breath of fresh air. Eventually,
+                                    I thought that it would be worth picking up another sport. Volleyball crossed my mind, and I tried a bit of it in School and in clubs but
+                                    I didn't really enjoy the atmosphere of the club at the time. I came across Thai Boxing online one day and found a club near me that practices
+                                    Thai Boxing and Mixed Martial Arts.
+                                </p>
+                                <p>
+                                    It was good fun, and more physically intensive than anything I had ever done! There are so many skills to learn and a lot of room for creativity.
+                                    I practiced for a roughly 2 years on and off due to not really having too much money at the time. I didn't have the will power to study, partake
+                                    in clubs and work simultaneously.
+                                </p>
+                                <p>
+                                    I developed a pretty bad lower back problem at around 18, where I could hardly bend down, which was a shame as I was looking forward to MMA at
+                                    university.
+                                </p>
+                                <p>
+                                    As of now, I mainly keep fit in the gym. I try to employ functional training so that my muscles and fitness are primed for whenever I get back into
+                                    a sport.
+                                </p>
+                            </Collapsible>                           
 
                             {/* @* I have played rugby from ages 12 - ~16, from school, to club, to county level. After, I practiced Mixed Martial Arts with the focus on Thai Boxing. Now, I keep fit with regular exercise in the gym and with running. I hope to get back into martial arts when its viable for me to do so. *@ */}
                         </div>
